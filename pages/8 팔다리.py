@@ -15,7 +15,7 @@ if api_key:
     st.title("DALL-E 3 이미지 분석 및 생성기")
 
     # 이미지 파일 업로드 받기
-    uploaded_file = st.file_uploader("이미지를 업로드하세요", type=["jpg", "jpeg", "png"])
+    uploaded_file = st.file_uploader("귀여운 이미지를 업로드하세요", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:
         # 이미지 파일을 base64로 인코딩
